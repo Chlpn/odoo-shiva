@@ -1,0 +1,10 @@
+<openerp>
+    <data>
+
+        <record id="group_master" model="res.groups">
+            <field name="name">Master</field>
+        </record>
+        <menuitem action="account.action_account_form" id="account.menu_action_account_form" parent="account.menu_finance_entries" sequence="20" groups="group_master"/>
+        
+    </data>
+</openerp>
