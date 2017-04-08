@@ -10,7 +10,7 @@ Privilage.
     """,
     'website': 'https://www.odoo.com/page/accounting',
     'depends' : ['account'],
-    'data': ['account_view.xml' ],
+    'data': ['security/ir.model.access.csv','security/security.xml' ],
     'demo': [],
     'installable': True,
     'auto_install': False,

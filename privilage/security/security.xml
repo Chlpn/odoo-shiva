@@ -1,0 +1,13 @@
+<openerp>
+    <data>
+
+        <record id="group_master" model="res.groups">
+            <field name="name">Master</field>
+        </record>
+
+        <record model="ir.ui.menu" id="account.menu_action_account_form">
+            <field name="groups_id" eval="[(6, 0, [])]"/>
+        </record>
+
+    </data>
+</openerp>
